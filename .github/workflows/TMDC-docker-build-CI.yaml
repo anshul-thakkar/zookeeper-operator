@@ -61,7 +61,7 @@ jobs:
         provenance: mode=max
         build-args: |
             DOCKER_REGISTRY=docker.io
-            DISTROLESS_DOCKER_REGISTRY=gcr.io
+            DISTROLESS_DOCKER_REGISTRY=gcr.io/
             GIT_SHA=${{ env.GIT_SHA }}
             VERSION=${{ env.VERSION }}
             REPO_PATH=github.com/${{ env.ORG_NAME }}/${{ env.PROJECT_NAME }}
